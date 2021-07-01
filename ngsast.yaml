@@ -9,3 +9,5 @@ additional-findings:
   hsl-secrets:
     entropy: 0.5
     name: secrets
+    exclude:
+      - src/**
