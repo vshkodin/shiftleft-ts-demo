@@ -1,0 +1,13 @@
+ngsast:
+- app:
+    name: helloshiftleft-spring-app
+    additional-findings:
+    - hsl-secrets
+    policy: io.shiftleft/helloshiftleft
+    language: JAVASCRIPT
+additional-findings:
+  hsl-secrets:
+    entropy: 0.5
+    name: secrets
+    exclude:
+      - src/**
